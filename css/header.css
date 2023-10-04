@@ -3,3 +3,32 @@ header img {
   height: 100vh;
   object-fit: cover;
 }
+
+.hero-txt {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  padding-left: 30px;
+  color: white;
+}
+
+.hero-txt h1 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 200;
+}
+
+.hero-txt h1 span {
+  font-weight: 500;
+}
+
+.hero-txt a {
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+  padding: 25px;
+  border: 1px solid white;
+  text-align: center;
+}
