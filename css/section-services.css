@@ -10,7 +10,7 @@
 }
 
 .section-services img {
-  width: 520px;
+  max-width: 520px;
 }
 
 .section-services h2 {
