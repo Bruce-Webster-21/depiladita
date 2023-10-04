@@ -1,0 +1,40 @@
+.section-about-us {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 30px;
+}
+
+.section-about-us img {
+  max-width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.section-about-us .about-us {
+  max-width: 300px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-us h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.about-us h2 span {
+  font-weight: 700;
+}
+
+.about-us a {
+  text-decoration: none;
+  color: white;
+  background-color: #2bb6b4;
+  padding: 25px;
+  text-align: center;
+}
