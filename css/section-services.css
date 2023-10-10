@@ -4,12 +4,14 @@
 
 .section-services {
   display: flex;
+  padding: 25px;
+  flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
   justify-content: space-between;
 }
 
-.section-services img {
+.blonde-woman {
   max-width: 520px;
 }
 
@@ -39,4 +41,16 @@
 
 .service-p img {
   width: 50px;
+}
+
+@media screen and (max-width: 950px) {
+  .section-services {
+    justify-content: center;
+  }
+  .blonde-woman {
+    width: 100%;
+  }
+  .section-services h2 {
+    margin-top: 20px;
+  }
 }
