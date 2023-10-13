@@ -1,10 +1,6 @@
-.bg-white {
-  background-color: white;
-}
-
 .section-services {
   display: flex;
-  padding: 25px;
+  padding: 30px 30px 80px 30px;
   flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
@@ -13,13 +9,14 @@
 
 .blonde-woman {
   max-width: 520px;
+  max-height: 650px;
 }
 
 .section-services h2 {
   font-size: 40px;
   font-weight: 300;
   line-height: 40px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .section-services h2 span {
@@ -46,6 +43,7 @@
 @media screen and (max-width: 950px) {
   .section-services {
     justify-content: center;
+    padding: 30px;
   }
   .blonde-woman {
     width: 100%;

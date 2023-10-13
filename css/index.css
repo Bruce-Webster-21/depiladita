@@ -10,3 +10,12 @@
 html {
   background-color: #faf2ef;
 }
+
+.bg-white {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+  -moz-box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+  -ms-box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+  -o-box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+}

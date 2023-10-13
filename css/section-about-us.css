@@ -1,19 +1,21 @@
 .section-about-us {
+  margin: 0 auto;
+  max-width: 1024px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  padding: 50px 30px;
+  padding: 60px 30px;
 }
 
 .section-about-us img {
-  max-width: 300px;
+  width: 300px;
   height: 500px;
   object-fit: cover;
 }
 
 .section-about-us .about-us {
-  max-width: 300px;
+  width: 300px;
 }
 
 .about-us {
@@ -38,4 +40,14 @@
   background-color: #2bb6b4;
   padding: 25px;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .section-about-us img {
+    width: 100%;
+  }
+  .section-about-us .about-us {
+    width: 100%;
+    gap: 15px;
+  }
 }
