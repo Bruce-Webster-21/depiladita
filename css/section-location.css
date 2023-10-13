@@ -22,3 +22,12 @@
 .section-location h2 span {
   font-weight: 700;
 }
+
+@media screen and (max-width: 950px) {
+  .section-location {
+    justify-content: left;
+  }
+  .section-location iframe {
+    max-width: 100%;
+  }
+}
