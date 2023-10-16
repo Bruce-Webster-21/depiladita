@@ -18,8 +18,8 @@ a {
 }
 
 .social-media-btn {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,13 +28,17 @@ a {
 }
 
 .social-media-btn i {
-  font-size: 35px;
+  font-size: 30px;
   color: white;
 }
 
 footer img {
   width: 200px;
   filter: invert(100%);
+}
+
+.referall-link {
+  font-size: 13px;
 }
 
 .bruce-webster-link {
