@@ -19,11 +19,14 @@ hamburger.addEventListener("click", function() {
 hamburger1.addEventListener("click", function() {
   this.classList.toggle("open");
   sidebarMenu.classList.toggle("show-sidebar")
+  body.classList.toggle("no-scroll")
   if (this.classList.contains('open')) (
     navbar.style.boxShadow = 'none'
   )
   if (this.classList.contains('open') == false) {
     navbar.style.boxShadow = '0px 1px 15px #00000059'
+    navbar.style['-webkit-box-shadow'] = '0px 1px 15px #00000059'
+    navbar.style['-moz-box-shadow'] = '0px 1px 15px #00000059'
   }
 });
 
@@ -39,4 +42,5 @@ sidebarMenu.addEventListener("click", () => {
     hamburger1.classList.toggle("open")
   }
   sidebarMenu.classList.toggle("show-sidebar")
+  body.classList.toggle("no-scroll")
 })
