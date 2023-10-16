@@ -51,4 +51,22 @@ sidebarMenu.addEventListener("click", () => {
   }
   sidebarMenu.classList.toggle("show-sidebar")
   body.classList.toggle("no-scroll")
+
+  if (hamburger.classList.contains('open')) (
+    navbar.style.boxShadow = 'none'
+  )
+  if (hamburger.classList.contains('open') == false) {
+    navbar.style.boxShadow = '0px 1px 15px #00000059'
+    navbar.style['-webkit-box-shadow'] = '0px 1px 15px #00000059'
+    navbar.style['-moz-box-shadow'] = '0px 1px 15px #00000059'
+  }
+
+  if (hamburger1.classList.contains('open')) (
+    navbar.style.boxShadow = 'none'
+  )
+  if (hamburger1.classList.contains('open') == false) {
+    navbar.style.boxShadow = '0px 1px 15px #00000059'
+    navbar.style['-webkit-box-shadow'] = '0px 1px 15px #00000059'
+    navbar.style['-moz-box-shadow'] = '0px 1px 15px #00000059'
+  }
 })
