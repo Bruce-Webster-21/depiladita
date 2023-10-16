@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/hamburger-menu.css">
+  <link rel="stylesheet" href="css/sidebar-menu.css">
   <link rel="stylesheet" href="css/section-about-us.css">
   <link rel="stylesheet" href="css/section-services.css">
   <link rel="stylesheet" href="css/section-location.css">
@@ -17,14 +18,14 @@
   <link rel="stylesheet" href="css/whatsapp-btn.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body id="body">
 
   <nav id="second-nav-bar">
-    <img class="logo" src="img/icons/logo.svg" alt="logo">
+    <img id="logo" class="logo" src="img/icons/logo.svg" alt="logo">
     <div id="hamburger-menu">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span class="hamburger-item"></span>
+      <span class="hamburger-item"></span>
+      <span class="hamburger-item"></span>
     </div>
   </nav>
 
@@ -37,7 +38,17 @@
     </div>
   </nav>
 
-  <header>
+  <div id="sidebar-menu" class="sidebar-menu">
+    <div class="link-container">
+      <a href="#header">Inicio</a>
+      <a href="#about-us">Nosotros</a>
+      <a href="#services">Servicios</a>
+      <a href="#location">Ubicacion</a>
+      <a href="#testimonial">Clientes</a>
+    </div>
+  </div>
+
+  <header id="header">
     <img src="img/woman-hero.jpg" alt="">
     <div class="hero-txt hidden">
       <h1>REVELA <br> TU <span>BELLEZA<span></h1>
@@ -46,7 +57,7 @@
   </header>
 
   <main>
-    <section class="section-about-us">
+    <section id="about-us" class="section-about-us">
       <img class="hidden" src="img/business-img.jpg" alt="">
       <div class="about-us hidden">
         <h2>SOBRE <span>NOSOTROS</span></h2>
@@ -57,7 +68,7 @@
     </section>
 
     <div class="bg-white">
-      <section class="section-services">
+      <section id="services" class="section-services">
         <div>
           <h2>QUE <br><span>OFRECEMOS</span></h2>
           <div class="services-p">
@@ -99,7 +110,7 @@
       </section>
     </div>
 
-    <section class="section-location">
+    <section id="location" class="section-location">
       <iframe class="hidden" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2974782014107!2d-69.84783569602753!3d18.515454498983264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8746a3bcf61f%3A0x3a94aee92ebf628b!2sDepiladitaesthetic!5e0!3m2!1sen!2sdo!4v1696454472787!5m2!1sen!2sdo" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div class="hidden">
         <h2>NUESTRA <br><span>UBICACION</span></h2>
@@ -116,7 +127,7 @@
     </section>
 
     <div class="bg-white">
-      <section class="section-testimonials">
+      <section id="testimonial" class="section-testimonials">
         <div class="testimonial-container">
           <h2 class="hidden">CLIENTES <br><span>SATISFECHOS</span></h2>
           <div class="gap-30">

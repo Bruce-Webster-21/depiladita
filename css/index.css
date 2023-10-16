@@ -9,6 +9,7 @@
 
 html {
   background-color: #faf2ef;
+  scroll-behavior: smooth;
 }
 
 .bg-white {
@@ -18,4 +19,8 @@ html {
   -moz-box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
   -ms-box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
   -o-box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

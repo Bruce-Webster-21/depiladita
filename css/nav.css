@@ -4,10 +4,17 @@ nav {
   justify-content: space-between;
   display: flex;
   position: absolute;
+  z-index: 2;
 }
 
 nav .logo {
   width: 150px;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.invert {
+  filter: invert(100%);
 }
 
 #nav-bar {
@@ -30,7 +37,7 @@ nav .logo {
   -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 15px;
   -ms-box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 15px;
   -o-box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 15px;
-  z-index: 1;
+  z-index: 2;
 }
 
 #nav-bar .logo {
