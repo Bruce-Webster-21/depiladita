@@ -14,14 +14,6 @@ hamburger.addEventListener("click", function() {
   hamburgerItems.forEach((item) => {
     item.classList.toggle("black")
   })
-  if (this.classList.contains('open')) {
-    navbar.style.boxShadow = 'none'
-  }
-  if (this.classList.contains('open') == false) {
-    navbar.style.boxShadow = '0px 1px 15px #00000059'
-    navbar.style['-webkit-box-shadow'] = '0px 1px 15px #00000059'
-    navbar.style['-moz-box-shadow'] = '0px 1px 15px #00000059'
-  }
 });
 
 hamburger1.addEventListener("click", function() {
@@ -30,6 +22,8 @@ hamburger1.addEventListener("click", function() {
   body.classList.toggle("no-scroll")
   if (this.classList.contains('open')) {
     navbar.style.boxShadow = 'none'
+    navbar.style['-webkit-box-shadow'] = 'none'
+    navbar.style['-moz-box-shadow'] = 'none'
   }
   if (this.classList.contains('open') == false) {
     navbar.style.boxShadow = '0px 1px 15px #00000059'
@@ -52,17 +46,10 @@ sidebarMenu.addEventListener("click", () => {
   sidebarMenu.classList.toggle("show-sidebar")
   body.classList.toggle("no-scroll")
 
-  if (hamburger.classList.contains('open')) {
-    navbar.style.boxShadow = 'none'
-  }
-  if (hamburger.classList.contains('open') == false) {
-    navbar.style.boxShadow = '0px 1px 15px #00000059'
-    navbar.style['-webkit-box-shadow'] = '0px 1px 15px #00000059'
-    navbar.style['-moz-box-shadow'] = '0px 1px 15px #00000059'
-  }
-
   if (hamburger1.classList.contains('open')) {
     navbar.style.boxShadow = 'none'
+    navbar.style['-webkit-box-shadow'] = 'none'
+    navbar.style['-moz-box-shadow'] = 'none'
   }
   if (hamburger1.classList.contains('open') == false) {
     navbar.style.boxShadow = '0px 1px 15px #00000059'
