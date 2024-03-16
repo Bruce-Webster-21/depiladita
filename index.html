@@ -27,62 +27,64 @@
 </head>
 <body id="body">
 
-  <!-- Loader section -->
-  <div id="loader-page" class="loader-page">
-    <div class="loader"></div>
+<!-- Loader section -->
+<div id="loader-page" class="loader-page" aria-hidden="true">
+  <div class="loader" aria-hidden="true"></div>
+</div>
+
+<!-- Cover image navigation bar -->
+<nav id="second-nav-bar" aria-label="Cover Image Navigation">
+  <img id="logo" class="logo" src="img/icons/logo.svg" alt="Logo de la empresa">
+  <div id="hamburger-menu" aria-label="Menú de navegación (Hamburguesa)">
+    <span class="hamburger-item" aria-hidden="true"></span>
+    <span class="hamburger-item" aria-hidden="true"></span>
+    <span class="hamburger-item" aria-hidden="true"></span>
   </div>
+</nav>
 
-  <!-- Cover immage navigation bar -->
-  <nav id="second-nav-bar">
-    <img id="logo" class="logo" src="img/icons/logo.svg" alt="logo">
-    <div id="hamburger-menu">
-      <span class="hamburger-item"></span>
-      <span class="hamburger-item"></span>
-      <span class="hamburger-item"></span>
-    </div>
-  </nav>
-
-  <!-- Main navigation bar -->
-  <nav id="nav-bar">
-    <img class="logo" src="img/icons/logo.svg" alt="logo">
-    <div id="hamburger-menu-1">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </nav>
-
-  <!-- Sidebar menu -->
-  <div id="sidebar-menu" class="sidebar-menu">
-    <div class="link-container">
-      <a href="#header">Inicio</a>
-      <a href="#about-us">Nosotros</a>
-      <a href="#services">Servicios</a>
-      <a href="#location">Ubicacion</a>
-      <a href="#testimonial">Clientes</a>
-    </div>
+<!-- Main navigation bar -->
+<nav id="nav-bar" aria-label="Main Navigation">
+  <img class="logo" src="img/icons/logo.svg" alt="Logo de la empresa">
+  <div id="hamburger-menu-1" aria-label="Menú de navegación (Hamburguesa)">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
   </div>
+</nav>
+
+<!-- Sidebar menu -->
+<div id="sidebar-menu" class="sidebar-menu" aria-label="Menú Lateral">
+  <div class="link-container">
+    <a href="#header">Inicio</a>
+    <a href="#about-us">Nosotros</a>
+    <a href="#services">Servicios</a>
+    <a href="#location">Ubicación</a>
+    <a href="#testimonial">Clientes</a>
+  </div>
+</div>
+
 
   <!-- Header section -->
   <header id="header">
-    <img src="img/woman-hero-1.jpg" alt="">
+    <img src="img/woman-hero-1.jpg" alt="Imagen representativa de belleza" aria-hidden="true">
     <div class="hero-txt hidden">
       <h1>REVELA <br> TU <span>BELLEZA</span></h1>
-      <a href="https://wa.link/8zbaq1" target="_blank">TOMAR UNA CITA</a>
+      <a href="https://wa.link/8zbaq1" target="_blank" aria-label="Enlace para tomar una cita">TOMAR UNA CITA</a>
     </div>
   </header>
+  
 
   <!-- Main content section -->
   <main>
     <!-- About us section -->
     <section id="about-us" class="section-about-us">
-      <img class="hidden" src="img/business-img.jpg" alt="">
+      <img class="hidden" src="img/business-img.jpg" alt="Imagen de nuestro negocio" aria-hidden="true">
       <div class="about-us hidden">
         <h2>SOBRE <span>NOSOTROS</span></h2>
         <p>En Depiladita Esthetic, creemos en la belleza como la armonía entre confianza interna y apariencia radiante. Realzamos tu atractivo natural con tratamientos rejuvenecedores y transformadores. Nuestros profesionales expertos te guían hacia la mejor versión de ti mismo, adaptando servicios de relajación, rejuvenecimiento, contorno corporal y soluciones personalizadas. Descubre tu belleza en un mundo de serenidad y transformación en nuestro oasis estético. Únete a nosotros en tu viaje hacia un yo más seguro y vibrante.</p>
-        <a href="https://wa.link/8zbaq1" target="_blank">TOMAR UNA CITA</a>
+        <a href="https://wa.link/8zbaq1" target="_blank" aria-label="Enlace para tomar una cita">TOMAR UNA CITA</a>
       </div>
-      <img class="hidden" src="img/employees.jpeg" alt="">
+      <img class="hidden" src="img/employees.jpeg" alt="Imagen de nuestros empleados" aria-hidden="true">
     </section>
 
     <!-- Services section -->
@@ -92,38 +94,39 @@
           <h2>QUE <br><span>OFRECEMOS</span></h2>
           <div class="services-p">
             <!-- Service items -->
-            <div class="service-p hidden">
-              <img src="img/icons/1.svg" alt="">
-              <p>Depilacion Laser Soprano Ice</p>
+            <div class="service-p hidden" role="button" aria-label="Depilación Láser Soprano Ice">
+              <img src="img/icons/1.svg" alt="Icono de Depilación Láser Soprano Ice">
+              <p>Depilación Láser Soprano Ice</p>
             </div>
-            <div class="service-p hidden">
-              <img src="img/icons/2.svg" alt="">
+            <div class="service-p hidden" role="button" aria-label="Limpieza Facial Profunda">
+              <img src="img/icons/2.svg" alt="Icono de Limpieza Facial Profunda">
               <p>Limpieza Facial Profunda</p>
             </div>
-            <div class="service-p hidden">
-              <img src="img/icons/3.svg" alt="">
+            <div class="service-p hidden" role="button" aria-label="Blanqueamiento Corporal">
+              <img src="img/icons/3.svg" alt="Icono de Blanqueamiento Corporal">
               <p>Blanqueamiento Corporal</p>
             </div>
-            <div class="service-p hidden">
-              <img src="img/icons/4.svg" alt="">
-              <p>Eliminacion de Cicatrices & Tatuajes</p>
+            <div class="service-p hidden" role="button" aria-label="Eliminación de Cicatrices & Tatuajes">
+              <img src="img/icons/4.svg" alt="Icono de Eliminación de Cicatrices & Tatuajes">
+              <p>Eliminación de Cicatrices & Tatuajes</p>
             </div>
-            <div class="service-p hidden">
-              <img src="img/icons/5.svg" alt="">
-              <p>Cauterizacion de Verrugas</p>
+            <div class="service-p hidden" role="button" aria-label="Cauterización de Verrugas">
+              <img src="img/icons/5.svg" alt="Icono de Cauterización de Verrugas">
+              <p>Cauterización de Verrugas</p>
             </div>
-            <div class="service-p hidden">
-              <img src="img/icons/6.svg" alt="">
+            <div class="service-p hidden" role="button" aria-label="Tratamiento Hollywood Peel">
+              <img src="img/icons/6.svg" alt="Icono de Tratamiento Hollywood Peel">
               <p>Tratamiento Hollywood Peel</p>
             </div>
-            <div class="service-p hidden">
-              <img src="img/icons/7.svg" alt="">
-              <p>Micropigmentacion de Labios</p>
+            <div class="service-p hidden" role="button" aria-label="Micropigmentación de Labios">
+              <img src="img/icons/7.svg" alt="Icono de Micropigmentación de Labios">
+              <p>Micropigmentación de Labios</p>
             </div>
-            <div class="service-p hidden">
-              <img src="img/icons/8.svg" alt="">
+            <div class="service-p hidden" role="button" aria-label="Masajes Post Operatorios & Reductores">
+              <img src="img/icons/8.svg" alt="Icono de Masajes Post Operatorios & Reductores">
               <p>Masajes Post Operatorios & Reductores</p>
             </div>
+            
           </div>
         </div>
         <img class="blonde-woman hidden" src="img/blonde-woman-side.png" alt="">
@@ -155,50 +158,52 @@
           <div class="gap-30">
             <!-- Testimonial items -->
             <div class="testimonial hidden">
-              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="">
+              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="Icono de comillas">
               <p>Estoy encantada con el tratamiento láser en mis axilas; mi piel volvió a su tono natural, el vello no ha vuelto a crecer, y estoy ansiosa por la siguiente sesión en el área de bikini. Mis axilas y piernas se sienten suaves después de una sola sesión, ¡una de mis mejores decisiones!</p>
             </div>
             <div class="testimonial hidden">
-              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="">
+              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="Icono de comillas">
               <p>Cariño, estoy emocionada, ya han pasado 8 días desde que me hice el tratamiento láser en las axilas y ahora es cuando empiezan a crecer los vellos. En cuanto cumpla un mes, voy a programar mi próxima sesión de láser.</p>
             </div>
           </div>
           <div class="gap-30">
             <div class="testimonial hidden">
-              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="">
+              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="Icono de comillas">
               <p>La mejor inversión que una persona puede hacer íntimamente es darse ese láser. 100% encantada.</p>
             </div>
             <div class="testimonial hidden">
-              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="">
+              <img class="quotation-mark" src="img/icons/quotation-mark.svg" alt="Icono de comillas">
               <p>Perfecto, me gustó mucho. No me crecen igual, o sea, ahora más lento, y hay espacios en los que ya siento que no me sale vello, ¡y eso es con la primera sesión!</p>
             </div>
           </div>
         </div>
       </section>
     </div>
+    
   </main>
 
   <!-- Footer section -->
   <footer>
     <div class="social-media-container hidden">
-      <a class="social-media-btn" href="https://wa.link/gvu537" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
+      <a class="social-media-btn" href="https://wa.link/gvu537" target="_blank" aria-label="Enlace a WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
       </a>
-      <a class="social-media-btn" href="https://www.instagram.com/depiladitaesthetic/" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
+      <a class="social-media-btn" href="https://www.instagram.com/depiladitaesthetic/" target="_blank" aria-label="Enlace a Instagram">
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
       </a>
     </div>
-    <img class="hidden" src="img/icons/logo.svg" alt="">
+    <img class="hidden" src="img/icons/logo.svg" alt="Logo de Depiladita" aria-hidden="true">
     <div class="hidden">
       <p>© Depiladita 2023</p>
-      <p class="referall-link">Diseñado y desarollado por <a class="bruce-webster-link" href="https://www.instagram.com/bruce__webster/" target="_blank">Bruce Webster</a></p>
+      <p class="referall-link">Diseñado y desarrollado por <a class="bruce-webster-link" href="https://www.instagram.com/bruce__webster/" target="_blank">Bruce Webster</a></p>
     </div>
   </footer>
+  
 
   <!-- WhatsApp floating button -->
-  <a href="https://wa.link/gvu537" class="btn-whatsapp-pulse" target="_blank">
-    <i class="fa-brands fa-whatsapp"></i>
-  </a>
+  <a href="https://wa.link/gvu537" class="btn-whatsapp-pulse" target="_blank" aria-label="Enlace a WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>  
 
   <!-- JavaScript files -->
   <script src="javascript/hamburger-menu.js"></script>
